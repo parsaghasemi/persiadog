@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ParsiaDog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid" id="nav-contact-us">
+      <!-- Nav Bar -->
+
+      <nav class="navbar  navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Persiadog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactUs.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a class="nav-link" href="angular.html" style="color:greenyellow">AngularJS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Keep in touch! we are wating for you</h1>
+          <button type="button" class="btn btn-dark btn-lg download-botton"><i class="fab fa-apple"></i><a class="download" href="https://apps.apple.com/us/app/chewy-where-pet-lovers-shop/id1149449468">Downalod</a></button>
+          <button type="button" class="btn btn-outline-light btn-lg download-botton"><i class="fab fa-google-play"></i><a class="download" href="https://play.google.com/store/apps/details?id=app.dogo.com.dogo_android&hl=en">Downalod</a></button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/dog.png" alt="dog">
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- contact us form -->
+  <section class="contact-us-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well well-sm">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">
+                      Email Address</label>
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                      </span>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">
+                      Subject</label>
+                    <select id="subject" name="subject" class="form-control" required="required">
+                      <option value="na" selected="">Choose One:</option>
+                      <option value="service">General Customer Service</option>
+                      <option value="suggestions">Suggestions</option>
+                      <option value="product">Product Support</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-warning pull-right" id="btnContactUs">
+                    Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our Store</legend>
+            <address>
+              <strong>Twitter, Inc.</strong><br>
+              Eram Ave<br>
+              Shiraz Univeristy<br>
+              <abbr title="Phone">
+                P:</abbr>
+              (123) 456-7890
+            </address>
+            <address>
+              <strong>Persiadog</strong><br>
+              <a style="color:#FF9C71" href="mailto:#">first.last@example.com</a>
+            </address>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <div class="footer-icon">
+        <a href="https://twitter.com"><i class="fab fa-twitter fab-id"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook-f fab-id"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram fab-id"></i></a>
+        <a href="https://www.yahoo.com"><i class="fas fa-envelope fab-id"></i></a>
+      </div>
+      <p>© Copyright 2020 Persiadog</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
